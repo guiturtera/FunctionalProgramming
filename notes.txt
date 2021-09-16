@@ -1,0 +1,46 @@
+Functional Languages are based in math principles, that can be applied in computing.
+1930 - First principle: LAMBDA (function as variable)
+1980 - HASKEL
+
+- Benefits:
+	- Modules (for smaller programs)
+	- Easier to degub
+	- Helps paralelism programming
+
+From BECOMING FUNCTIONAL BOOK
+Features:
+
+## [First-Class or High-Order or even First-Class Citizens] Functions ##
+	"Lambda" is an anonymous function.
+	In functional programming, First-Class Functions have the hability to deal with lambdas as return or argument.
+
+## Pure functions ##
+	They are functions that are self-contained.
+	The same input always returns the same output.
+	For example, in a class, will not change it's state.
+	Or another example, in a procedure language, will not change a global variable.
+
+## Immutable variables ##
+	Variables do not change, they can only be manipulated.
+
+## Recursion ##
+	"Math loop is recursion"
+	Function that can call itself
+	n! { 1, 	if n = 0 or n = 1
+	   { n(n-1)!,   if n >= 2
+	
+## Nonstrict evaluation, Lazy Evalutation, Delayed Evaluation or Call-by-name ##
+	Variable is not assigned to memory until the very first time it is referenced.
+	It improves the performance.
+
+## Statements ##
+	Each line of code returns a value.
+	For example:
+		'RUBY'
+		puts("The return value is #{x=1}")
+		The return value is 1
+	`If we use more statements, we reduce the amount of variables, thereafter, we reduce the need to change them, improving the functional paradigm`
+
+## Pattern matching ##
+	Applies a pattern in types.
+	REGEX can be remembered here. Rather than strings, pattern matching matches the types(methods, functions)

@@ -1,0 +1,18 @@
+IEx (Elixir's interective shell)
+REPL (Read Eval Print Loop)
+
+
+File  Extension -> (.ex)
+Executable Extension -> (.beam)
+elixirc "<file>" creates the build of a file (.beam)
+There's als the extension -> (.exs) - Creates a script and compilates in memory
+elixir "<file>"
+
+defmodule (module) -> Used to group functions
+def (function of a  module) 
+
+iex (searches for .beam extensions)
+
+h("<module>") -> HELP
+i(type) -> also some 
+r(Say) -> recompila o módulo
